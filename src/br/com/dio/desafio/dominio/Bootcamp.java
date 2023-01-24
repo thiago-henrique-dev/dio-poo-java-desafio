@@ -42,9 +42,15 @@ public class Bootcamp {
         this.devsInscritos = devsInscritos;
     }
 
+    public Set<Conteudo> getConteudos() {
+        return conteudos;
+    }
+
     public void setConteudos(Set<Conteudo> conteudos){
         this.conteudos = conteudos;
     }
+
+    
 
     @Override
     public boolean equals(Object o) {
