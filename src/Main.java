@@ -23,7 +23,7 @@ public class Main {
         Conteudo conteudo = new Curso();
         Conteudo conteudo1 = new Mentoria();
 
-        List<String> palavras = new ArrayList<>()
+        List<String> palavras = new ArrayList<>();
         
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de java");
